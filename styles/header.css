@@ -1,0 +1,29 @@
+header{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font-main);
+    border: none;
+    box-shadow: 0 0.05rem 0.03rem rgba(var(--text-color-bg), 0.3);
+    background: var(--blend-color);
+}
+
+header img{
+    height: 2rem;
+    width: auto;
+}
+
+header nav a{
+    color: var(--text-color);
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: var(--sub-color);
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/pridi');
+@import url('https://fonts.cdnfonts.com/css/varela-round-2');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: rgb(19, 32, 60);
+    --sub-color: rgb(251, 187, 71);
+    --text-color: rgb(0, 0, 0);
+    --blend-color: rgb(255, 255, 255);
+
+    --font-main: 'Pridi', sans-serif;
+    --font-sub:  'Varela Round', sans-serif;
+
+    --main-color-bg: 19, 32, 60;
+    --sub-color-bg: 251, 187, 71;
+    --text-color-bg: 0, 0, 0;
+}
