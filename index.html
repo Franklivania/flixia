@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="shortcut icon" href="./assets/Flixia_logo.PNG" type="image/x-icon">
 
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/section-one.css">
     <link rel="stylesheet" href="./styles/section-two.css">
+    <link rel="stylesheet" href="./styles/section-three.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 
     <title>FLIXIA: Your best site for streaming your favourite shows</title>
 </head>
@@ -25,6 +28,8 @@
         </header>
 
         <section class="section-one" id="section-one">
+
+            <!-- <img src="./assets/back.jpg" alt=""> -->
 
             <h1>Enjoy quality when you stream. Let your eyes see the best always</h1>
 
@@ -90,6 +95,64 @@
 
         </section>
 
+        <section class="section-three" id="section-three">
+
+            <div class="toggle-menu" id="toggle-menu">
+                <button class="toggle tab-1-button active" target="1">Entertainment</button>
+                <button class="toggle tab-2-button" target="2">Lifestyle</button>
+                <button class="toggle tab-3-button" target="3">Comfort</button>
+            </div>
+
+            <div class="elements">
+                <div id="div1" class="target tab-1-content active">
+                    <img src="./assets/devices.png" alt="">
+                    <img src="./assets/Flixia_logo.png" alt="" id="sub">
+
+                    <div class="container">
+                        <h1>Stream on any device</h1>
+                        <p>Catch your favourite shows on any device <br>
+                        Follow your series on the go wherever you are</p>
+                    </div>
+                </div>
+                <div id="div2" class="target tab-2-content">
+                    <img src="./assets/golf.png" alt="">
+
+                    <div class="container">
+                        <h1>Revamp your personal Lifestyle</h1>
+
+                        <p>Be assured and be updated for your next show <br>
+                        You can spend more time doing the things you love, and let us remind you <br>
+                        Be together with whom you love more</p>
+                    </div>
+                </div>
+                <div id="div3" class="target tab-3-content">
+
+                    <img src="./assets/relax.png" alt="">
+                    
+                    <div class="container">
+                        <h1>Be assured of the latest content</h1>
+
+                        <p>
+                            There is no way to be behind, so you can sit back, relax <br>
+                            and be sure to take on more tasks as we would make sure to keep <br>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <small>If you want you want to inquire more about our plans, feel free to 
+                reach us <a href="/">here</a>
+            </small>
+
+        </section>
+
+        <footer>
+
+        </footer>
+
     </div>
+
+    <script src="./index.js" type="text/javascript"></script>
 </body>
 </html>

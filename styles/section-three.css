@@ -1,0 +1,162 @@
+.section-three{
+    position: absolute;
+    width: 100%;
+    height: 110vh;
+    top: 97.7rem;
+    background: rgba(var(--main-color-bg), 0.6);
+}
+
+.section-three .toggle-menu{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    z-index: 11;
+}
+
+.section-three .toggle-menu button{
+    font-family: var(--font-sub);
+    font-size: 1.3rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    border: none;
+    color: rgba(var(--blend-color-bg), 0.3);
+    background: transparent;
+    outline: none;
+}
+
+.section-three .toggle-menu button:hover{
+    border-bottom: 0.05rem solid var(--blend-color);
+}
+
+.section-three .elements .target {
+    display: none;
+}
+
+.section-three .elements .target.active {
+    display: block;
+    border-bottom: 0.05rem solid var(--blend-color);
+    color: var(--blend-color);
+}
+
+.section-three .elements .change{
+    color: var(--blend-color);
+    border-bottom: 0.05rem solid var(--blend-color);
+}
+
+.section-three .elements {
+    font-family: var(--font-main);
+}
+
+.section-three .elements .tab-1-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(
+        circle,
+        rgba(var(--main-color-bg), 0.8),
+        rgba(var(--main-color-bg), 0.8)),
+        url(../assets/one.webp);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: all 2s ease;
+    animation: inUp .4s linear;
+}
+
+.section-three .elements .tab-2-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(
+        circle,
+        rgba(var(--main-color-bg), 0.8),
+        rgba(var(--main-color-bg), 0.8)),
+        url(../assets/swim.webp);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: all 2s ease;
+    animation: inUp .4s linear;
+}
+
+.section-three .elements .tab-3-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(
+        circle,
+        rgba(var(--main-color-bg), 0.8),
+        rgba(var(--main-color-bg), 0.8)),
+        url(../assets/comfy.webp);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: all 2s ease;
+    animation: inUp .4s linear;
+}
+
+.section-three .elements .target img{
+    position: absolute;
+    top: 25%;
+    left: -1%;
+    height: 30rem;
+    width: auto;
+}
+
+.section-three .elements #div1 #sub{
+    height: 5rem;
+    top: 45%;
+    left: 15%;
+}
+
+.section-three .elements .target .container{
+    position: absolute;
+    top: 38%;
+    left: 55%;
+    text-align: center;
+}
+
+.section-three .elements .target .container h1{
+    font-size: 3rem;
+    color: var(--sub-color);
+    padding-bottom: 3rem;
+}
+
+.section-three .elements .target .container p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--blend-color);
+}
+
+.section-three small{
+    position: absolute;
+    top: 93%;
+    left: 55%;
+    color: var(--blend-color);
+    font-size: 1rem;
+    font-family: var(--font-sub);
+}
+
+.section-three small a{
+    color: var(--blend-color);
+}
+
+@keyframes inUp {
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    50%{
+        opacity: 0.5;
+        visibility: visible;
+        transform: translateZ(1rem);
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+        transform: translate(0);
+    }
+}
