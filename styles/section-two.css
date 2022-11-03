@@ -91,3 +91,11 @@
     font-size: 1.2rem;
     color: var(--blend-color);
 }
+
+@media screen and (max-width= 950px) {
+    
+}
+
+@media screen and (max-width= 450px) {
+    
+}

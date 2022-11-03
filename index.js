@@ -14,16 +14,3 @@ tabButtons.forEach(btn => {
     
     })
 })
-
-var btnContainer = document.getElementById("toggle-menu");
-var btns = btnContainer.getElementsByClassName("toggle");
-
-for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("change");
-    if (current.length > 0) { 
-      current[0].className = current[0].className.replace(" change", "");
-    }
-    this.className += " change";
-    });
-}
