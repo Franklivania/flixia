@@ -76,10 +76,16 @@
     color: var(--sub-color);
 }
 
-@media screen and (max-width= 950px) {
-    
+@media screen and (max-width: 950px) {
+    .footer{
+        top: 208rem;
+    }
+
+    .footer hr{
+        margin-left: 4.5%;
+    }
 }
 
-@media screen and (max-width= 450px) {
+@media screen and (max-width: 450px) {
     
 }

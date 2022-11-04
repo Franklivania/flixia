@@ -52,10 +52,13 @@
     background: var(--main-color);
 }
 
-@media screen and (max-width= 950px) {
-    
+@media screen and (max-width: 950px) {
+    .section-one h1{
+        font-size: 2.5rem;
+        margin-top: -25rem;
+    }
 }
 
-@media screen and (max-width= 450px) {
+@media screen and (max-width: 450px) {
     
 }

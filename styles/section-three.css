@@ -157,10 +157,36 @@
     }
 }
 
-@media screen and (max-width= 950px) {
-    
+@media screen and (max-width: 950px) {
+    .section-three{
+        top: 128rem;
+    }
+
+    .section-three .toggle-menu{
+        left: 30%;
+    }
+
+    .section-three .elements .target img{
+        height: 25rem;
+        left: 15%;
+    }
+
+    .section-three .elements #div1 #sub{
+        top: 38%;
+        left: 33%;
+    }   
+
+    .section-three .elements .target .container{
+        top: 48rem;
+        left: 1rem;
+    }
+
+    .section-three small{
+        top: 10%;
+        left: 10%;
+    }
 }
 
-@media screen and (max-width= 450px) {
+@media screen and (max-width: 450px) {
     
 }

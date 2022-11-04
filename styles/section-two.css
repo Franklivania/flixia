@@ -92,10 +92,19 @@
     color: var(--blend-color);
 }
 
-@media screen and (max-width= 950px) {
-    
+@media screen and (max-width: 950px) {
+    .section-two .card{
+        display: grid;
+        grid-template-columns: auto auto;
+        place-items: center;
+    }
+
+    .section-two .card .container{
+        width: 23rem;
+        margin: 0.5rem;
+    }
 }
 
-@media screen and (max-width= 450px) {
+@media screen and (max-width: 450px) {
     
 }
