@@ -188,5 +188,49 @@
 }
 
 @media screen and (max-width: 450px) {
-    
+    .section-three{
+        top: 195rem;
+    }
+
+    .section-three .toggle-menu{
+        left: 4%;
+    }
+    .section-three .toggle-menu button{
+        margin: 0 0.3rem;
+    }
+
+    .section-three .elements .target img{
+        height: 18rem;
+        width: 99%;
+        top: 20%;
+        left: 0.5%;
+    }
+
+    .section-three .elements #div1 #sub{
+        height: 3rem;
+        width: 9rem;
+        top: 33%;
+    }
+
+    .section-three .toggle-menu{
+        left: 9%;
+    }
+
+    .section-three .elements .target .container{
+        top: 30rem;
+    }
+
+    .section-three .elements .target .container h1{
+        font-size: 2rem;
+    }
+
+    .section-three .elements .target .container p{
+        font-size: 1.3rem;
+    }
+
+    .section-three small{
+        top: 10%;
+        left: 5%;
+        text-align: center;
+    }
 }

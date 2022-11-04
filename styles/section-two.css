@@ -106,5 +106,9 @@
 }
 
 @media screen and (max-width: 450px) {
-    
+    .section-two .card{
+        display: grid;
+        grid-template-columns: auto;
+        place-items: center;
+    }
 }

@@ -87,5 +87,24 @@
 }
 
 @media screen and (max-width: 450px) {
-    
+    .footer{
+        top: 255rem;
+    }
+
+    .footer .aid{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+
+    .footer .social{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer .container{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }
