@@ -7,6 +7,10 @@
     background: var(--blend-color);
 }
 
+.footer img{
+    display: none;
+}
+
 .footer .aid{
     display: flex;
     justify-content: space-around;
@@ -89,6 +93,14 @@
 @media screen and (max-width: 450px) {
     .footer{
         top: 255rem;
+    }
+
+    .footer img{
+        display: block;
+        height: 35rem;
+        position: absolute;
+        top: -5%;
+        left: 51%;
     }
 
     .footer .aid{

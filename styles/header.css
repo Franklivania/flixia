@@ -18,12 +18,16 @@ header img{
     width: auto;
 }
 
-header nav a{
+header button{
     color: var(--text-color);
     font-size: 1.3rem;
     text-decoration: none;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
-header nav a:hover{
+header button:hover{
     color: var(--sub-color);
 }

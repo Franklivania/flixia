@@ -111,4 +111,7 @@
         grid-template-columns: auto;
         place-items: center;
     }
+    .section-two .card .container{
+        width: 90%;
+    }
 }
